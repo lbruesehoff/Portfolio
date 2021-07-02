@@ -24,9 +24,7 @@
 .effect:nth-child(2) {
   margin-top: 50px;
 }
-.effect:nth-child(2n+1) {
-  background-color: #fff;
-}
+
 .effect:nth-child(2n+1) h2 {
   color: #212121;
 }
