@@ -9,7 +9,7 @@
 }
 .animated-title {
   color: rgb(255, 255, 255);
-  font-family: Roboto, Arial, sans-serif;
+  font-family: 'Abel', sans-serif;
   height: 100vmin;
   left: 50%;
   position: absolute;
@@ -55,9 +55,17 @@
   top: 0;
   transform: translate(0, -100%);
 }
-/* 
-@media screen and (max-width: 800px){
-  .text-top{
-    margin-top: 0%;
+
+@media screen and (max-width: 1024px){
+
+  .animated-title{
+    top:50%;
   }
-} */
+}
+
+@media screen and (max-width: 901px){
+
+  .animated-title{
+    top:50%;
+  }
+}

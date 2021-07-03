@@ -16,7 +16,7 @@
 }
 @media (max-width: 768px) {
   .card {
-    min-height: 350px;
+    min-height: 550px;
     margin-top: 5%;
     padding-left: 0%;
   }
